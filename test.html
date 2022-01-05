@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./owcarosel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owcarosel/assets/owl.theme.default.min.css">
+    <style>
+      .modal-img-fixed {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(35, 35, 35, 0.5);
+        color: #232323;
+        z-index: 100;
+        display: none;
+      }
+      .modal-img {
+        width: 200px;
+        margin: auto;
+        background-color: #ffff;
+        opacity: 1;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="./assets/images/banner1.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/banner2.jpg" alt="" />
+              </div>
+            </div>
+
+          </div>
+    </div>
+     <a class="btn" >onclick </a>
+     <div id = "modal" class="modal-img-fixed">
+        <div class="modal-img">
+          <img src="./assets/images/iP11-5-510x510-1.jpg" alt="">
+        </div>
+     </div>
+
+     <select name="" id="select">
+      <option value="1">
+           mese
+      </option>
+      <option value="2">
+           audi
+      </option>
+      <option value="3">
+           vin
+      </option>
+
+     </select>
+    <script src="./jquery.min.js"></script>
+    <script src="./owcarosel/owl.carousel.min.js"></script>
+    <script>
+           $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0:{
+            items:1,
+            nav:false,
+            autoplay:true,
+        },
+        }
+      })
+    </script>
+    <script>
+      var button = document.querySelector("a")
+      console.log(typeof(button))
+      var modalElement = document.querySelector(".modal-img-fixed")
+      console.log(modalElement);
+      button.onclick = function(){
+        modalElement.style.display="block"
+      }
+      
+      modalElement.onclick =function(){
+        modalElement.style.display="none"
+      }
+
+      var selectE = document.querySelector("select")
+      if(selectE.value) {
+        console.log(selectE.value)
+      } 
+    </script>
+    
+</body>
+</html>

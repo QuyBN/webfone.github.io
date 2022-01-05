@@ -1,0 +1,166 @@
+{
+  "productList": [
+    {
+      "tensanpham": "iPhone 6 512GB 99% like new",
+      "hinhAnh": "./assets/images/iphone-7-32g-1.jpg",
+      "gia": 5000000,
+      "mau": "den",
+      "dungluong": "256G",
+      "id": 1
+    },
+    {
+      "tensanpham": "iPhone 6 512GB 99% like new",
+      "hinhAnh": "./assets/images/iP11-6-510x510-1.jpg",
+      "gia": 5000000,
+      "mau": "den",
+      "dungluong": "256G",
+      "id": 2
+    },
+    {
+      "tensanpham": "iPhone 6 512GB 99% like new",
+      "hinhAnh": "./assets/images/iphone-7-32g-1.jpg",
+      "gia": 5000000,
+      "mau": "den",
+      "dungluong": "256G",
+      "id": 3
+    },
+    {
+      "tensanpham": "iPhone 6 512GB 99% like new",
+      "hinhAnh": "./assets/images/iP11-6-510x510-1.jpg",
+      "gia": 5000000,
+      "mau": "den",
+      "dungluong": "256G",
+      "id": 4
+    }
+  ],
+  "productListCart": [
+    {
+      "ten": "iphone 5",
+      "gia": 5000000,
+      "mau": "den",
+      "soluong": "2",
+      "tongtien": 10000000,
+      "hinhAnh": "./assets/images/iphone-7-32g-1.jpg",
+      "id": 1
+    }
+  ],
+  "users": {
+    "fullname": "lê văn tiềm",
+    "phonenumber": "09899999999",
+    "adress": "quảng trị",
+    "email": "dcctk59@gmail.com"
+  },
+  "listcheckout": [
+    {
+      "ten": "lê văn tiềm",
+      "sodt": "099888877766",
+      "diachi": "quảng trị",
+      "email": "phagichitu230796@gmail.com",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 1
+    },
+    {
+      "ten": "nguyễn văn a",
+      "sodt": "099888877766",
+      "diachi": "hà nội",
+      "email": "phuongthao20000@gmail.com",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 3
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 4
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 5
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 6
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 7
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 8
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 9
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 10
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 11
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 12
+    },
+    {
+      "ten": "",
+      "sodt": "",
+      "diachi": "",
+      "email": "",
+      "tensanpham": "iPhone 6 512GB 99% like new × 2",
+      "tongtien": "59.200.000đ",
+      "id": 13
+    }
+  ],
+  "iddetail": {
+    "id": 1
+  }
+}

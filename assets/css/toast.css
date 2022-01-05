@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-size: inherit;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    /* margin: 50px auto;
+    background-color: #ddd;
+    min-height: 500px;
+    padding: 10px 20px; */
+    position: absolute;
+    top: -26px;
+    right: 32px;
+}
+@keyframes sliderInLeft {
+    from{
+        opacity: 0;
+         transform: translateX(calc(100% + 32px));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.box_message {
+    min-width: 400px;
+    max-width: 450px;
+    display: flex;
+    padding:0 20px;
+    background-color: #fff;
+    border-left: 4px solid #000;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #ccc;
+    transition: all linear 0.3s;
+}
+.box_message .icon_notify {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background-color: #cccc;
+    border-radius: 50%;
+    color:#000;
+    display: flex;
+    align-self: center;
+}
+.box_message .icon_notify i {
+    padding: 5px 0px;
+    font-size: 20px;
+    margin: auto;
+    color: #fff;
+}
+
+.infor_box {
+    padding-top: 5px;
+    flex: 1;
+    line-height: 1.5;
+}
+.infor_box h3.tile {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.infor_box .disc {
+    color: #333;
+    font-size: 15px;
+}
+
+
+.btn button.succes {
+    background-color: green;
+}
+.btn button.error {
+    background-color: red;
+}
+
+.toast__succes {
+    border-color:green ;
+
+}
+.toast__succes .icon_notify {
+    background-color:green ;
+}
+.toast__error {
+    border-color: red;
+
+}
+.toast__error .icon_notify {
+    background-color:red ;
+}
+.toast__wraning {
+    border-color:#f0a92d;
+
+}
+.toast__wraning .icon_notify {
+    background-color:#f0a92d;
+}
+
+.btn {
+
+    display: flex;
+    margin-top: 50vh;
+    justify-content: center;
+}
+.btn button {
+    width: 200px;
+    padding:8px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    color: #fff
+    
+}
+.btn button.succes {
+    margin-right: 20px;
+}

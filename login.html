@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-2" >
+            <div class="form-img">
+                <img src="./assets/images/iphone-7-32g-1.jpg" alt="">
+            </div>
+            <div class="form-contain">
+                <h3 class="heading">Đăng Nhập Tài Khoản</h3>
+                <div class="spacer"></div>
+                <div class="form-group">
+                  <label for="fullname" class="form-label">Tên đầy đủ</label>
+                  <input
+                    id="fullname"
+                    name="fullname"
+                    type="text"
+                    placeholder="nhập tên đầy đủ"
+                    class="form-control"
+                  />
+                  <span class="form-message"></span>
+                </div>
+        
+                <div class="form-group">
+                  <label for="password" class="form-label">Mật khẩu</label>
+                  <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    placeholder="Nhập mật khẩu"
+                    class="form-control"
+                  />
+                  <span class="form-message"></span>
+                </div>
+                <button class="form-submit">Đăng nhập</button>
+            </div>
+          </form>  
+    </div>
+
+<script src="./handleJs/login.js"></script>
+<script>
+    validator({
+      form: "#form-2",
+      formGroup: ".form-group",
+      formError: ".form-message",
+      Rules: [
+        validator.isRequired("#fullname"),
+        validator.isRequired("#password"),
+        validator.isRequired("#password_confirmation"),
+        validator.isconfirmed("#password_confirmation", function () {
+          return document.querySelector("#password").value;
+        }),
+      ],
+      formSubmit(data) {
+        console.log(data);
+      },
+    });
+  </script>
+</body>
+</html>
